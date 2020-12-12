@@ -1,0 +1,90 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .about .personal-info span {
+        display: block;
+    }
+    .banner_socila_box{
+        display: none;
+    }
+    .banner_part {
+        height: auto;
+    }
+    .banner_content {
+        padding-top: 10px;
+    }
+    .personal-content {
+        margin-top: 50px;
+    }
+    .contact_icon {
+        margin-bottom: 25px;
+    }
+    .header .navbar-toggler {
+        color: #2db89d;
+        font-size: 30px;
+    }
+    .banner_item h1 {
+        font-size: 28px;
+    }
+    .banner_item h4 {
+        font-size: 26px;
+    }
+    .personal-content h3 {
+        font-size: 23px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .about .personal-info span {
+        display: block;
+    }
+    .banner_socila_box{
+        display: none;
+    }
+    .banner_part {
+        height: auto;
+    }
+    .banner_content {
+        padding-top: 10px;
+    }
+    .personal-content {
+        margin-top: 50px;
+    }
+    .contact_icon {
+        margin-bottom: 25px;
+    }
+    .header .navbar-toggler {
+        color: #2db89d;
+        font-size: 30px;
+    }
+    .banner_item h1 {
+        font-size: 28px;
+    }
+    .banner_item h4 {
+        font-size: 26px;
+    }
+    .personal-content h3 {
+        font-size: 23px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+
+@media (max-width: 920px){
+    
+}
+@media (min-width: 1200px){
+    
+}

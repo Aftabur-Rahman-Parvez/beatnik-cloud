@@ -1,0 +1,103 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   
+    .container-fluid {
+        padding: 0 15px;
+    }
+    .partner-part-body {
+        /* max-height: 80px; */
+    }
+}
+@media (max-width: 767.98px) and (min-width: 576px){
+    .container-fluid {
+        padding: 0 15px;
+    }
+    .partner-part-body {
+        /* max-height: 80px; */
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container-fluid {
+        padding: 0 30px;
+    }
+    .header-logo {
+        left: 20%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-fluid {
+        padding: 0 60px;
+    }
+    .header-logo {
+        left: 20%;
+    }
+
+    
+    
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .product-tab-content-inner .owl-carousel .owl-stage-outer {
+        height:360px!important;
+    }
+    .navicon-left {
+        display:none;
+    }
+ }
+
+
+@media (max-width: 920px){
+    
+}
+@media (min-width: 1200px){
+    
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    
+}
+@media (min-width: 1600px) and (max-width: 1749.98px) {
+    
+      
+}
+@media (min-width: 1750px) and (max-width: 3900.98px) {
+    
+}
+@media (min-width: 1931px){
+    
+}
+
+
+@media (min-width: 576px){
+    .vedio_section .slick-slider {
+        left: calc(((100vw - 540px)/ 2) + 15px);
+    }
+}
+@media (min-width: 768px){
+    .vedio_section .slick-slider {
+        left: calc(((100vw - 720px)/ 2) + 15px);
+    }
+}
+@media (min-width: 992px){
+    .vedio_section .slick-slider {
+        left: calc(((100vw - 960px)/ 2) + 15px);
+    }
+}
+@media (min-width: 1200px){
+    .vedio_section .slick-slider {
+        left: calc(((100vw - 1220px)/ 2) + 15px);
+    }
+}
+@media (min-width: 1600px){
+    .vedio_section .slick-slider {
+        left: calc(((100vw - 1620px)/ 2) + 15px);
+    }
+}
