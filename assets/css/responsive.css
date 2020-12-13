@@ -59,17 +59,216 @@
     
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    
+    .container-fluid {
+        max-width: 1700px;
+        padding: 0 80px;
+    }
 }
 @media (min-width: 1400px) and (max-width: 1599.98px) {
-    
+    .container-fluid {
+        max-width: 1700px;
+        padding: 0 80px;
+    }
+    .header-banner-body p {
+        font-size: 17px;
+    }
+    .services-card h4 {
+        font-size: 26px;
+    }
+    .services-card {
+        padding: 10px 25px 20px 25px;
+        margin-bottom: 35px;
+        margin-right: 5px;
+    }
+    .services-card p {
+        font-size: 15px;
+    }
+    .our-services-row-left h3 {
+        line-height: 65px;
+        font-size: 38px;
+    }
+    .our-services-row-left h3:before {
+        width: 75px;
+    }
+    .our-services-row-left-list-ul li {
+        margin-bottom: 8px;
+    }
+    .free-hostion-part-title p {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .free-hostion-col {
+        padding: 30px 20px 32px 20px;
+    }
+    .free-hostion-col p {
+        font-size: 21px;
+    }
+    .services-query-body p {
+        font-size: 60px;
+    }
+    .services-query-body p {
+        font-weight: 700;
+    }
+    .blog-card-date-time {
+        margin-bottom: 8px;
+    }
+    .blog-card-date-time ul li {
+        font-size: 14px;
+    }
+    .blog-card-date-time ul li:before {
+        font-size: 5px;
+    }
 }
 @media (min-width: 1600px) and (max-width: 1749.98px) {
-    
+    .container-fluid {
+        max-width: 1700px;
+        padding: 0 100px;
+    }
+    .header-banner-body p {
+        font-size: 17px;
+    }
+
+    .services-card h4 {
+        font-size: 26px;
+    }
+    .services-card {
+        padding: 10px 25px 20px 25px;
+        margin-bottom: 35px;
+        margin-right: 5px;
+    }
+    .services-card p {
+        font-size: 15px;
+    }
+    .our-services-row-left h3 {
+        line-height: 65px;
+        font-size: 38px;
+    }
+    .our-services-row-left h3:before {
+        width: 75px;
+    }
+    .our-services-row-left-list-ul li {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .service-contact-col-dir-img img {
+        width: 165px;
+    }
+    .service-contact-col-title p {
+        font-size: 18px;
+    }
+    .free-hostion-part-title p {
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .free-hostion-col {
+        padding: 30px 20px 32px 20px;
+    }
+    .free-hostion-col p {
+        font-size: 24px;
+    }
+    .services-query-body p {
+        font-size: 70px;
+        font-weight: 700;
+    }
+    .accordian_item_title {
+        padding: 20px 20px;
+        font-size: 18px;
+    }
+    .accordian_item .card-body p {
+        font-size: 16px;
+    }
+    .blog-card-date-time {
+        margin-bottom: 8px;
+    }
+    .blog-card-date-time ul li {
+        font-size: 14px;
+    }
+    .blog-card-date-time ul li:before {
+        font-size: 5px;
+    }
+    .blog-card-header h3 a {
+        font-size: 30px;
+    }
+    .blog-card-header {
+        min-height: 125px;
+    }
       
 }
 @media (min-width: 1750px) and (max-width: 3900.98px) {
-    
+    .container-fluid {
+        max-width: 1700px;
+        padding: 0 100px;
+    }
+    .header-banner-body p {
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 19px;
+    }
+
+    .services-card h4 {
+        font-size: 26px;
+    }
+    .services-card {
+        padding: 10px 25px 20px 25px;
+        margin-bottom: 35px;
+        margin-right: 5px;
+    }
+    .services-card p {
+        font-size: 15px;
+    }
+    .our-services-row-left h3 {
+        line-height: 65px;
+        font-size: 38px;
+    }
+    .our-services-row-left h3:before {
+        width: 75px;
+    }
+    .our-services-row-left-list-ul li {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .service-contact-col-dir-img img {
+        width: 165px;
+    }
+    .service-contact-col-title p {
+        font-size: 18px;
+    }
+    .free-hostion-part-title p {
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .free-hostion-col {
+        padding: 30px 20px 32px 20px;
+    }
+    .free-hostion-col p {
+        font-size: 24px;
+    }
+    .services-query-body p {
+        font-size: 70px;
+        font-weight: 700;
+    }
+    .accordian_item_title {
+        padding: 20px 20px;
+        font-size: 18px;
+    }
+    .accordian_item .card-body p {
+        font-size: 16px;
+    }
+    .blog-card-date-time {
+        margin-bottom: 8px;
+    }
+    .blog-card-date-time ul li {
+        font-size: 14px;
+    }
+    .blog-card-date-time ul li:before {
+        font-size: 5px;
+    }
+    .blog-card-header h3 a {
+        font-size: 30px;
+    }
+    .blog-card-header {
+        min-height: 125px;
+    }
 }
 @media (min-width: 1931px){
     

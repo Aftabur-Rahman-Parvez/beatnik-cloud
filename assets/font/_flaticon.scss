@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 12/12/2020 18:27
+    Creation date: 13/12/2020 14:14
     */
 
     @font-face {
@@ -42,9 +42,13 @@
 .flaticon-phone-call:before { content: "\f102"; }
 .flaticon-plus:before { content: "\f103"; }
 .flaticon-remove:before { content: "\f104"; }
+.flaticon-verified:before { content: "\f105"; }
+.flaticon-check:before { content: "\f106"; }
     
     $font-Flaticon-rec: "\f100";
     $font-Flaticon-black-circle: "\f101";
     $font-Flaticon-phone-call: "\f102";
     $font-Flaticon-plus: "\f103";
     $font-Flaticon-remove: "\f104";
+    $font-Flaticon-verified: "\f105";
+    $font-Flaticon-check: "\f106";
