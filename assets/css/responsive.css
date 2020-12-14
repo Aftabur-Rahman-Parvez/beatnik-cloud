@@ -7,6 +7,66 @@
     .partner-part-body {
         /* max-height: 80px; */
     }
+    .header-banner-body h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .header-banner-body p {
+        width: 90%;
+    }
+    .partner-part {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .section-title {
+        font-size: 35px;
+    }
+    .our-services-row:first-child {
+        padding-top: 0px;
+    }
+    .service-contact-col-icon img {
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    .our-services-row-left h3 {
+        line-height: 55px;
+        font-size: 26px;
+    }
+    .services-query-body {
+        top: 220px;
+    }
+    .services-query-part {
+        height: 700px;
+    }
+    .services-query-body p {
+        font-size: 33px;
+    }
+    .accordian_item_title {
+        padding: 15px 25px 15px 15px;
+        font-size: 15px;
+    }
+    .accordian_item_title:after {
+        right: 7px;
+        font-size: 16px;
+    }
+    .free-hostion-part-title p {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .lets-talk-part-btn {
+        position: fixed;
+        bottom: 10%;
+        right: 20px;
+        z-index: 999;
+    }
+    .talk-area {
+        width:80%;
+        right:10%;
+    }
+    .footer-social-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
 @media (max-width: 767.98px) and (min-width: 576px){
     .container-fluid {
@@ -124,6 +184,10 @@
         max-width: 1700px;
         padding: 0 100px;
     }
+    .header-banner-body h3 {
+        font-size: 75px;
+        line-height: 85px;
+    }
     .header-banner-body p {
         font-size: 17px;
     }
@@ -198,6 +262,10 @@
     .container-fluid {
         max-width: 1700px;
         padding: 0 100px;
+    }
+    .header-banner-body h3 {
+        font-size: 78px;
+        line-height: 90px;
     }
     .header-banner-body p {
         font-size: 18px;

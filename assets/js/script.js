@@ -33,6 +33,10 @@
 //       }
 //     },
 // });
+$(document).ready(function () {
+
+  new WOW().init();
+});
 
 jQuery("#partner-slider-main").owlCarousel({
   autoplay: true,
@@ -141,3 +145,23 @@ jQuery("#blog-slider").owlCarousel({
     }
   },
 });
+
+function leftsTalkOption(params) {
+  $('.talk-trigger').on('click', function (e) {
+      e.preventDefault(),
+          $('.talk-area').addClass('is-visible');
+          $(this).addClass('open');
+          $(this).removeClass('open_btn_t');
+          $(this).addClass('hide_btn_t');
+          
+          
+  })
+  $('.btn-close-search').on('click', function (e) {
+      e.preventDefault(),
+          $(this).parent('.talk-area').removeClass('is-visible');
+          $('.talk-trigger').removeClass('open');
+          $('.talk-trigger').removeClass('hide_btn_t');
+          $('.talk-trigger').addClass('open_btn_t');
+  })
+}
+leftsTalkOption();
