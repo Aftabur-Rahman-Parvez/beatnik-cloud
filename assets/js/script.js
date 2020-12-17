@@ -165,3 +165,31 @@ function leftsTalkOption(params) {
   })
 }
 leftsTalkOption();
+
+
+$(document).ready(function() {
+  $(".main_slider").slick({
+    // infinite: true,
+    dots: false,
+    arrows: false,
+    asNavFor: '.slider_dots',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+  });
+  $('.slider_dots').slick({
+    infinite: true,
+    slidesToShow:5,
+    slidesToScroll: 1,
+    asNavFor: '.main_slider',
+    arrows: false,
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: '20%',
+    variableWidth: false,
+    pauseOnHover:false,
+
+    // touchMove:true,
+  });
+});

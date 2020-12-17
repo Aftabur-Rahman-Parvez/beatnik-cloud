@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 13/12/2020 14:14
+    Creation date: 17/12/2020 08:00
     */
 
     @font-face {
@@ -44,6 +44,7 @@
 .flaticon-remove:before { content: "\f104"; }
 .flaticon-verified:before { content: "\f105"; }
 .flaticon-check:before { content: "\f106"; }
+.flaticon-left-quote:before { content: "\f107"; }
     
     $font-Flaticon-rec: "\f100";
     $font-Flaticon-black-circle: "\f101";
@@ -52,3 +53,4 @@
     $font-Flaticon-remove: "\f104";
     $font-Flaticon-verified: "\f105";
     $font-Flaticon-check: "\f106";
+    $font-Flaticon-left-quote: "\f107";
