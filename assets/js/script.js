@@ -202,6 +202,13 @@ $(document).ready(function() {
     slidesToScroll: 1,
     fade: true,
   });
+  $(".main_slider .slick-slide").hide();
+  $('#trigger').on('mousemove', function() {
+    
+    $(".main_slider .slick-slide.slick-active").show();
+    $(".main_slider .slick-slide").show();
+    $("#trigger").hide();
+  });
   $('.slider_dots').slick({
     infinite: true,
     slidesToShow:5,
