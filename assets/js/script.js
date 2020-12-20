@@ -40,7 +40,7 @@ $(document).ready(function () {
   //   offset: 100
   // });
   // wow.init();
-  new WOW.init();
+  // new WOW.init();
 
   AOS.init({
     // duration: 700
@@ -236,6 +236,7 @@ $(document).ready(function(){
 
 
 
+
 //
 // Configuration
 //
@@ -249,10 +250,10 @@ var degPerSec = 6
 // start angles
 var angles = { x: -20, y: 40, z: 0}
 // colors
-var colorWater = '#fff'
-var colorLand = '#111'
-var colorGraticule = '#ccc'
-var colorCountry = '#a00'
+var colorWater = '#000'
+var colorLand = '#1B6083'
+var colorGraticule = '#000'
+var colorCountry = '#638BA0'
 
 
 //
@@ -305,8 +306,48 @@ function setAngles() {
 }
 
 function scale() {
-  width = document.documentElement.clientWidth
-  height = document.documentElement.clientHeight
+  width = (document.documentElement.clientWidth)/1.3
+  height = (document.documentElement.clientHeight)/1.7
+
+  // width =600
+  // height = 400
+
+  //   var delay = (function(){
+  //     var timer = 0;
+  //     return function(callback, ms){
+  //         clearTimeout (timer);
+  //         timer = setTimeout(callback, ms);
+  //     };
+  //   })();
+
+  // $(function() {
+  //     var pause = 000;
+  //     // will only process code within delay(function() { ... }) every 100ms.
+
+  //     $(window).resize(function() {
+         
+  //             var width1 = $(window).width();
+  //             if( width1 >= 1600 && width1 <= 2200 ) {
+  //               width =900
+  //               height = 500
+  //             } else if( width1 >= 768 && width1 <= 959 ) {
+  //                 // code for tablet view
+  //             } else if( width1 >= 480 && width1 <= 767 ) {
+  //                 // code for mobile landscape
+  //             } else if( width1 <= 479 ) {
+  //                 // code for mobile portrait
+  //             }
+         
+  //     });
+
+  //     $(window).resize();
+  // });
+
+ 
+
+
+
+
   canvas.attr('width', width).attr('height', height)
   projection
     .scale((scaleFactor * Math.min(width, height)) / 2)
@@ -378,9 +419,9 @@ function rotate(elapsed) {
 }
 
 function loadData(cb) {
-  d3.json('https://unpkg.com/world-atlas@1/world/110m.json', function(error, world) {
+  d3.json('http://127.0.0.1:5500/assets/data/110m.json', function(error, world) {
     if (error) throw error
-    d3.tsv('https://gist.githubusercontent.com/mbostock/4090846/raw/07e73f3c2d21558489604a0bc434b3a5cf41a867/world-country-names.tsv', function(error, countries) {
+    d3.tsv('http://127.0.0.1:5500/assets/data/world-country-names.tsv', function(error, countries) {
       if (error) throw error
       cb(world, countries)
     })

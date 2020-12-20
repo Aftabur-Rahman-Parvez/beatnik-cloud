@@ -1182,13 +1182,24 @@ p.talk_send_us{
   
 #current {
     position: absolute;
-    color: white;
-    font-family: sans-serif;
-    margin-left: 4%;
-    margin-top: 4%;
+    /* color: white; */
+    font-family: 'Russo One', sans-serif;
+    /* margin-left: 4%; */
+    /* margin-top: 4%; */
+    left: 37%;
+    top: 2%;
+    letter-spacing: 1px;
+    color: #AF8BFE;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:#AF8BFE;
+
 }
 .globe-location canvas {
-    width: 1100px;
+    /* width: 1100px; */
+}
+.globe-location{
+    text-align:center;
 }
 
 
