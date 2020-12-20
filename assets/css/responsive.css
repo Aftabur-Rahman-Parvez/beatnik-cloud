@@ -14,6 +14,12 @@
     .header-banner-body p {
         width: 90%;
     }
+    .header-menu-body{
+        display:none;
+    }
+    .header-mobile-menu-body{
+        display:block;
+    }
     .partner-part {
         padding-top: 20px;
         padding-bottom: 50px;
@@ -55,8 +61,8 @@
     }
     .lets-talk-part-btn {
         position: fixed;
-        bottom: 10%;
-        right: 20px;
+        bottom: 6%;
+        right: 10px;
         z-index: 999;
     }
     .talk-area {
@@ -88,6 +94,13 @@
     }
     .partner-part-body {
         /* max-height: 80px; */
+    }
+
+    .header-menu-body{
+        display:none;
+    }
+    .header-mobile-menu-body{
+        display:block;
     }
 }
 

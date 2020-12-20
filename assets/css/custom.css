@@ -169,6 +169,10 @@ h1,h2,h3,h4,h5,h6{
     /* animation: fadeInLeft;
     animation-duration: 2s; */
 }
+
+.header-mobile-menu-body{
+    display:none;
+}
 .header-banner-btn {
     padding-top: 30px;
 }
@@ -180,6 +184,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 500;
     font-size: 15px; 
     transition: all .3s;
+    font-family: 'Inter';
 }
 .btn-common:hover{
     transition: all .3s;
@@ -326,15 +331,17 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     color: #CFD6D9;
     font-weight: 400;
+    line-height:28px;
 }
 
-.services-card.hover{
+.services-card.aos-animate.hover{
     opacity: .6;
 }
 .services-card.hover.active{
     box-shadow: -2px 7px 12px 5px rgba(0, 1, 9, 0.6), 0px 20px 12px 5px rgba(0, 1, 9, 0.4);
     transform: scale(1.02);
     opacity: 1;
+    transition: all .3s;
 }
 
 /* services cloud */
@@ -1041,6 +1048,9 @@ h1,h2,h3,h4,h5,h6{
 .lets-talk-part-btn button {
     position: relative;
 }
+.lets-talk-part-btn button img{
+    width:90%;
+}
 .lets-talk-part-btn button span{
     position: absolute;
     top: 40%;
@@ -1048,7 +1058,7 @@ h1,h2,h3,h4,h5,h6{
     transform: translate(-50%, -50%);
     color: #000;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 18px;
     font-family: 'Oswald';
 }
 .btn:focus {
@@ -1089,12 +1099,12 @@ h1,h2,h3,h4,h5,h6{
 .display-block-sm{
     display:none!important;
 }
-.talk-trigger{
-    color:#E87722;
+.lets-talk-part-btn .talk-trigger{
+    /* color:#E87722; */
     font-size:20px;
     margin-right: 10px;
 }
-.hide_btn_t{
+.lets-talk-part-btn .hide_btn_t{
     visibility: hidden;
 }
 .open_btn_t{
