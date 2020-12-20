@@ -269,6 +269,16 @@ h1,h2,h3,h4,h5,h6{
     fill: #32FFCE;
     cursor:pointer;
 }
+.partner-slider-item.linode-item:hover svg path:nth-of-type(4){
+    fill:black;
+}
+.partner-slider-item.selsforce-item:hover svg path:nth-of-type(2){
+    fill:#121212;
+}
+.partner-slider-item.selsforce-item:hover svg path:nth-of-type(3){
+    fill:#121212;
+}
+
 .partner-slider-item {
     text-align: center;
 }
