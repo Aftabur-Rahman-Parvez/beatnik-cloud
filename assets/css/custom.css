@@ -141,6 +141,8 @@ h1,h2,h3,h4,h5,h6{
     line-height: 75px;
     padding-top: 65px;
     padding-bottom: 5px;
+    /* animation: fadeInDown;
+    animation-duration: 2s; */
 }
 .header-banner-body h3 span {
 
@@ -162,6 +164,9 @@ h1,h2,h3,h4,h5,h6{
     width: 80%;
     margin: 0 auto;
     color: #CFD6D9;
+    font-size:16px;
+    /* animation: fadeInLeft;
+    animation-duration: 2s; */
 }
 .header-banner-btn {
     padding-top: 30px;
@@ -185,11 +190,15 @@ h1,h2,h3,h4,h5,h6{
     color: #0E101C;
     font-size: 16px;
     font-weight: 500;
+    /* animation: fadeInUp;
+    animation-duration: 2s; */
 }
 .btn-services{
     border: 1px solid #fff;
     border-radius: 30px;
     color: #FDFEFF;
+    /* animation: fadeInUp;
+    animation-duration: 2s; */
 }
 .btn-services:hover{
     /* background: linear-gradient(133.12deg, #32FFA9 16.78%, #00B8A2 90.42%);
@@ -359,6 +368,30 @@ h1,h2,h3,h4,h5,h6{
 
 @keyframes cloud-sevices-1{
     0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}
+
+@keyframes cloud-sevices-2{
+    0%{
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+
+@keyframes cloud-sevices-3{
+    0%{
         transform: translateX(30px);
     }
     50%{
@@ -366,30 +399,6 @@ h1,h2,h3,h4,h5,h6{
     }
     100%{
         transform: translateX(30px);
-    }
-}
-
-@keyframes cloud-sevices-2{
-    0%{
-        transform: translateY(50px);
-    }
-    50%{
-        transform: translateY(-50px);
-    }
-    100%{
-        transform: translateY(50px);
-    }
-}
-
-@keyframes cloud-sevices-3{
-    0%{
-        transform: translateX(50px);
-    }
-    50%{
-        transform: translateX(-50px);
-    }
-    100%{
-        transform: translateX(50px);
     }
 }
 
@@ -452,8 +461,8 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
 }
 .our-services-row-right img:hover {
-    transform: scale(1.1);
-    transition: all .3s;
+    /* transform: scale(1.1);
+    transition: all .3s; */
 }
 .service-contact-part {
     display: flex;
@@ -875,7 +884,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .services-query-body {
     position: relative;
-    top: 300px;
+    top: 230px;
     text-align: center;
     background: rgba(30, 30, 30, 0.4);
     border: 1px solid #8f8f8f80;

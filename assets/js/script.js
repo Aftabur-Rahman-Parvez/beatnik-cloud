@@ -43,7 +43,7 @@ $(document).ready(function () {
   // new WOW.init();
 
   AOS.init({
-    // duration: 700
+    duration: 1200
   });
 });
 
