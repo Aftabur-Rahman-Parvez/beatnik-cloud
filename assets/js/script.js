@@ -47,6 +47,17 @@ $(document).ready(function () {
   });
 });
 
+var $window=$(window);
+
+$window.on('scroll',function(){
+  if($window.scrollTop()>100){
+      $("body").addClass('header-sticky');
+  }else{
+      $("body").removeClass('header-sticky');
+  }
+})
+
+
 function hamburgerOption(params) {
   $('.hamburger-trigger').on('click', function (e) {
       e.preventDefault(),

@@ -4,6 +4,11 @@
     .container-fluid {
         padding: 0 15px;
     }
+    .header-logo {
+        left: 10%;
+        top: 15px;
+        transform: translateX(-10%);
+    }
     .partner-part-body {
         /* max-height: 80px; */
     }
@@ -83,6 +88,12 @@
         margin-right: -10px;
         opacity: .7;
     }
+    .our-client-testimonial {
+        padding-bottom: 20px;
+    }
+    .our-client-testimonial .slider_dots .slick-track {
+        height: auto;
+    }
     .footer-social-link {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -94,6 +105,11 @@
     }
     .partner-part-body {
         /* max-height: 80px; */
+    }
+    .header-logo {
+        left: 10%;
+        top: 15px;
+        transform: translateX(-10%);
     }
 
     .header-menu-body{
@@ -266,6 +282,9 @@
     .free-hostion-col p {
         font-size: 24px;
     }
+    .services-query-part {
+        height: 800px;
+    }
     .services-query-body p {
         font-size: 70px;
         font-weight: 700;
@@ -359,6 +378,9 @@
     .services-query-body p {
         font-size: 70px;
         font-weight: 700;
+    }
+    .services-query-part {
+        height: 800px;
     }
     .accordian_item_title {
         padding: 20px 20px;
