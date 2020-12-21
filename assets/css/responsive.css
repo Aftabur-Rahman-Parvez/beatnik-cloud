@@ -106,28 +106,128 @@
         margin-top: 15px;
         margin-bottom: 15px;
     }
+    .footer-nav ul {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .copyright-link p {
+        font-size: 16px;
+        text-align: center;
+    }
 }
 @media (max-width: 767.98px) and (min-width: 576px){
     .container-fluid {
         padding: 0 15px;
-    }
-    .partner-part-body {
-        /* max-height: 80px; */
     }
     .header-logo {
         left: 10%;
         top: 15px;
         transform: translateX(-10%);
     }
-
+    .partner-part-body {
+        /* max-height: 80px; */
+    }
+    .header-banner-body h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .header-banner-body p {
+        width: 90%;
+    }
     .header-menu-body{
         display:none;
     }
     .header-mobile-menu-body{
         display:block;
     }
+    .partner-part {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
     .section-title {
         font-size: 38px;
+    }
+    .our-services-row:first-child {
+        padding-top: 0px;
+    }
+    .service-contact-col-icon img {
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    .our-services-row-left h3 {
+        line-height: 55px;
+        font-size: 26px;
+    }
+    .services-query-body {
+        top: 220px;
+    }
+    .services-query-part {
+        height: 700px;
+    }
+    .services-query-body p {
+        font-size: 33px;
+    }
+    .accordian_item_title {
+        padding: 15px 25px 15px 15px;
+        font-size: 15px;
+    }
+    .accordian_item_title:after {
+        right: 7px;
+        font-size: 16px;
+    }
+    .free-hostion-part-title p {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .free-hosting-cloud {
+        right: 53px;
+        width: 100px;
+    }
+    .lets-talk-part-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 0px;
+        z-index: 999;
+    }
+    .lets-talk-part-btn .talk-trigger {
+        font-size: 18px;
+        margin-right: 0px;
+    }
+    .talk-area {
+        width:80%;
+        right:10%;
+    }
+    .main_slider.slick-initialized .slick-slide {
+        padding: 40px 25px;
+    }
+    .tesimonial-content-text p:before {
+        font-size: 60px;
+        left: -20px;
+        top: -47px;
+    }
+    .our-client-testimonial .slider_dots .slider_navigators {
+
+        margin-left: -10px;
+        margin-right: -10px;
+        opacity: .7;
+    }
+    .our-client-testimonial {
+        padding-bottom: 20px;
+    }
+    .our-client-testimonial .slider_dots .slick-track {
+        height: auto;
+    }
+    .footer-social-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .footer-nav ul {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .copyright-link p {
+        font-size: 16px;
+        text-align: center;
     }
 }
 
