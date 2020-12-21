@@ -30,7 +30,7 @@
         padding-bottom: 50px;
     }
     .section-title {
-        font-size: 35px;
+        font-size: 38px;
     }
     .our-services-row:first-child {
         padding-top: 0px;
@@ -64,11 +64,19 @@
         font-size: 30px;
         line-height: 45px;
     }
+    .free-hosting-cloud {
+        right: 53px;
+        width: 100px;
+    }
     .lets-talk-part-btn {
         position: fixed;
-        bottom: 6%;
-        right: 10px;
+        bottom: 10px;
+        right: 0px;
         z-index: 999;
+    }
+    .lets-talk-part-btn .talk-trigger {
+        font-size: 18px;
+        margin-right: 0px;
     }
     .talk-area {
         width:80%;
@@ -117,6 +125,9 @@
     }
     .header-mobile-menu-body{
         display:block;
+    }
+    .section-title {
+        font-size: 38px;
     }
 }
 

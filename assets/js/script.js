@@ -244,9 +244,9 @@ var degPerSec = 6
 var angles = { x: -20, y: 40, z: 0}
 // colors
 var colorWater = '#000'
-var colorLand = '#004A71'
+var colorLand = '#793CFF'
 var colorGraticule = '#000'
-var colorCountry = '#638BA0'
+var colorCountry = '#4B17BB'
 
 
 //
