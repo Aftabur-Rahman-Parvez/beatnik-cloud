@@ -102,6 +102,23 @@
     .our-client-testimonial .slider_dots .slick-track {
         height: auto;
     }
+    .faq-animation-1 {
+        width: 38%;
+        top: 30%;
+        left: 5%;
+    }
+    .faq-animation-2 {
+        top: 20%;
+        left: 80%;
+    }
+    .faq-animation-4 {
+        top: 100%;
+        left: 81%;
+    }
+    .faq-animation-4 img {
+        width: 94%;
+        margin-top: 50px;
+    }
     .footer-social-link {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -114,6 +131,7 @@
         font-size: 16px;
         text-align: center;
     }
+    
 }
 @media (max-width: 767.98px) and (min-width: 576px){
     .container-fluid {
@@ -216,6 +234,23 @@
     }
     .our-client-testimonial .slider_dots .slick-track {
         height: auto;
+    }
+    .faq-animation-1 {
+        width: 38%;
+        top: 30%;
+        left: 5%;
+    }
+    .faq-animation-2 {
+        top: 20%;
+        left: 80%;
+    }
+    .faq-animation-4 {
+        top: 100%;
+        left: 81%;
+    }
+    .faq-animation-4 img {
+        width: 94%;
+        margin-top: 50px;
     }
     .footer-social-link {
         margin-top: 15px;
