@@ -1,38 +1,4 @@
-// jQuery("#partner-slider").owlCarousel({
-//     autoplay: true,
-//     lazyLoad: true,
-//     loop: false,
-//     animateOut: 'fadeOut',
-//     margin: 20,
-//     responsiveClass: true,
-//     autoHeight: false,
-//     autoplayTimeout: 7000,
-//     smartSpeed: 800,
-//     dots: false,
-//     nav:false,
-//     navigation : true,
-//     responsive: {
-//       0: {
-//         items: 3,
- 
-//       },
-  
-//       600: {
-//         items: 4,
-        
-//       },
-  
-//       1024: {
-//         items: 6,
-        
-//       },
-  
-//       1366: {
-//         items: 6,   
-	      
-//       }
-//     },
-// });
+
 $(document).ready(function () {
 
   // wow = new WOW({
@@ -45,6 +11,12 @@ $(document).ready(function () {
   AOS.init({
     duration: 1200
   });
+});
+
+// Preloader js
+$(window).on('load', function() {
+  $(".preloder_part").fadeOut();
+  $(".spinner").delay(1000).fadeOut("slow");
 });
 
 var $window=$(window);
