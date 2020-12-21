@@ -49,7 +49,6 @@ $(document).ready(function () {
 
 function hamburgerOption(params) {
   $('.hamburger-trigger').on('click', function (e) {
-    alert("h1")
       e.preventDefault(),
           $('.hamburger-area').addClass('is-visible');
           $(this).addClass('open');
@@ -426,9 +425,9 @@ function rotate(elapsed) {
 }
 
 function loadData(cb) {
-  d3.json('http://127.0.0.1:5500/assets/data/110m.json', function(error, world) {
+  d3.json('https://aftabur-rahman-parvez.github.io/beatnik-cloud/assets/data/110m.json', function(error, world) {
     if (error) throw error
-    d3.tsv('http://127.0.0.1:5500/assets/data/world-country-names.tsv', function(error, countries) {
+    d3.tsv('https://aftabur-rahman-parvez.github.io/beatnik-cloud/assets/data/world-country-names.tsv', function(error, countries) {
       if (error) throw error
       cb(world, countries)
     })
