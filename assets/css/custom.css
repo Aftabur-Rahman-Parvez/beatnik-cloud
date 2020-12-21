@@ -398,6 +398,30 @@ body.header-sticky .top-header{
 
 @keyframes cloud-sevices-1{
     0%{
+        transform: translateX(8px);
+    }
+    50%{
+        transform: translateX(-8px);
+    }
+    100%{
+        transform: translateX(8px);
+    }
+}
+
+@keyframes cloud-sevices-2{
+    0%{
+        transform: translateY(8px);
+    }
+    50%{
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(8px);
+    }
+}
+
+@keyframes cloud-sevices-3{
+    0%{
         transform: translateX(10px);
     }
     50%{
@@ -405,30 +429,6 @@ body.header-sticky .top-header{
     }
     100%{
         transform: translateX(10px);
-    }
-}
-
-@keyframes cloud-sevices-2{
-    0%{
-        transform: translateY(10px);
-    }
-    50%{
-        transform: translateY(-10px);
-    }
-    100%{
-        transform: translateY(10px);
-    }
-}
-
-@keyframes cloud-sevices-3{
-    0%{
-        transform: translateX(20px);
-    }
-    50%{
-        transform: translateX(-20px);
-    }
-    100%{
-        transform: translateX(20px);
     }
 }
 
@@ -909,24 +909,24 @@ body.header-sticky .top-header{
 
 @keyframes animate_1{
     0%{
-        transform: translateY(10px);
+        transform: translateY(8px);
     }
     50%{
-        transform: translateY(-10px);
+        transform: translateY(-8px);
     }
     100%{
-        transform: translateY(10px);
+        transform: translateY(8px);
     }
 }
 @keyframes animate_2{
     0%{
-        transform: translateY(10px);
+        transform: translateY(8px);
     }
     50%{
-        transform: translateY(-10px);
+        transform: translateY(-8px);
     }
     100%{
-        transform: translateY(10px);
+        transform: translateY(8px);
     }
 }
 /* services-query-part */
