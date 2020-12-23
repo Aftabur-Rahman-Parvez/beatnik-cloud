@@ -1,23 +1,11 @@
 /* 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-font-family: 'Inter', sans-serif;
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500&family=Russo+One&display=swap'); 
 
-
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-font-family: 'Russo One', sans-serif;
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-font-family: 'Oswald', sans-serif;
-
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500&family=Russo+One&display=swap');
-font-family: 'Inter', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Russo One', sans-serif;
 
 */
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500&family=Russo+One&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
@@ -40,6 +28,8 @@ a{
 }
 a:hover{
     text-decoration: none;
+    -webkit-transition: all .3s;
+    transition:all .3s;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Oswald', sans-serif;
@@ -125,6 +115,9 @@ body.header-sticky .top-header{
     color: #fff;
 
 }
+.header-menu ul li a:hover {
+    color: #1EF6C8;
+}
 .header-call:before {
     margin-left: 0px;
     font-size: 15px;
@@ -181,9 +174,7 @@ body.header-sticky .top-header{
     width: 80%;
     margin: 0 auto;
     color: #CFD6D9;
-    font-size:16px;
-    /* animation: fadeInLeft;
-    animation-duration: 2s; */
+    font-size:18px;
 }
 
 .header-mobile-menu-body{
@@ -249,43 +240,8 @@ body.header-sticky .top-header{
     color:#FDFEFF;
     font-size:55px;
 }
-/* .item-partner .imageBox {
-    position: relative;
-}
-  
-.item-partner .imageBox .hoverImg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-    transition:all .3s;
-}
-  
-.item-partner .imageBox:hover .hoverImg {
-    display: block;
-    cursor: pointer;
-    transition:all .3s;
-}
-.item-partner .imageBox:hover .imageInn{
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-    transition:all .3s;
-}
-.partner-part-body .owl-carousel .owl-stage{
-    margin:0 auto;
-}
-.partner-part-body {
-    border: .5px solid #ffffff94;
-    border-radius: 7px;
-}
-.owl-carousel .owl-item .item-partner img {
-    width: 80%;
-} */
 
-
-
+/* partner part */
 .partner-slider-item:hover svg path {
     fill: #32FFCE;
     cursor:pointer;
@@ -761,8 +717,8 @@ body.header-sticky .top-header{
     font-weight: 400;
     font-style:italic;
     color: #FDFEFF;
-
-    font-size:16px;
+    text-align: center;
+    font-size:18px;
 
 }
 .tesimonial-content-text p:before{
