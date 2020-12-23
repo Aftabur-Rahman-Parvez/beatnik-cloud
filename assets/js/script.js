@@ -32,7 +32,7 @@ $window.on('scroll',function(){
 
 // services
 
-
+// mobile menu
 
 function hamburgerOption(params) {
   $('.hamburger-trigger').on('click', function (e) {
@@ -48,6 +48,8 @@ function hamburgerOption(params) {
   })
 }
 hamburgerOption();
+
+// partner slider
 
 jQuery("#partner-slider-main").owlCarousel({
   autoplay: true,
@@ -85,6 +87,8 @@ jQuery("#partner-slider-main").owlCarousel({
   },
 });
 
+// recent client slider
+
 jQuery("#recent-client-slider").owlCarousel({
     autoplay: true,
     lazyLoad: true,
@@ -120,6 +124,8 @@ jQuery("#recent-client-slider").owlCarousel({
       }
     },
 });
+
+// blog slider
 
 jQuery("#blog-slider").owlCarousel({
   autoplay: true,
@@ -157,6 +163,8 @@ jQuery("#blog-slider").owlCarousel({
   },
 });
 
+// lets talk form
+
 function leftsTalkOption(params) {
   $('.talk-trigger').on('click', function (e) {
       e.preventDefault(),
@@ -177,6 +185,8 @@ function leftsTalkOption(params) {
 }
 leftsTalkOption();
 
+
+// testimonail slider
 
 $(document).ready(function() {
   $(".main_slider").slick({
@@ -212,6 +222,9 @@ $(document).ready(function() {
   });
 });
 
+
+// service card
+
 $(document).ready(function(){
   $(".services-card").mouseover(function(){
     $(".services-card").addClass("hover");
@@ -231,7 +244,7 @@ $(document).ready(function(){
 
 
 //
-// Configuration
+// Configuration  globe
 //
 
 // ms to wait after dragging before auto-rotating

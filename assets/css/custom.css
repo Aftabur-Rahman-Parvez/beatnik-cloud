@@ -70,8 +70,12 @@ body.header-sticky .top-header{
     position: fixed;
     width:100%;
     top:0;
-    transition: all .8s ease;
     z-index: 999999;
+    -webkit-animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
 
 }
 .top-header-part{
@@ -450,6 +454,7 @@ body.header-sticky .top-header{
     position: relative;
     line-height: 55px;
     font-size: 30px;
+    margin-bottom:15px;
 
 }
 .our-services-row-left h3:before {
@@ -802,11 +807,17 @@ body.header-sticky .top-header{
     font-size: 19px;
     font-weight: 500;
 }
+.main-title-part.recent-client-part p {
+    font-size: 16px;
+    color: #CFD6D9;
+    line-height: 30px;
+}
 
 /* recent client */
 .main-title-part.recent-client-part {
     padding-bottom: 20px;
 }
+
 
 /* faq section  */
 .faq-section{
@@ -1132,6 +1143,10 @@ body.header-sticky .top-header{
 .btn-close-search {
     position: relative;
 }
+.lets-talk-part-btn .btn-close-search button:hover {
+    color: #1EF6C8;
+}
+
 .talk-call-part p {
     color: #FDFEFF;
     font-weight: 500;
@@ -1190,6 +1205,7 @@ p.talk_send_us{
     border-radius: 30px;
     font-weight: 500;
     font-size: 16px;
+    font-family: 'Inter';
 }
 
 
@@ -1214,6 +1230,10 @@ p.talk_send_us{
     color: #CFD6D9;
     font-size: 18px;
 }
+.footer-social-link ul li a:hover {
+    color: #1EF6C8;
+    transition: all .3s ease;
+}
 .footer-nav{
     padding-right: 30px;
 }
@@ -1223,7 +1243,7 @@ p.talk_send_us{
 }
 .footer-nav ul li{
     position:relative;
-    border-left: 1px solid #ccc;
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
     padding-left: 10px;
     padding-right: 10px;
     line-height: 16px;
@@ -1236,10 +1256,15 @@ p.talk_send_us{
     color:rgba(255, 255, 255, 0.6);
     font-size: 16px;
 }
+.footer-nav ul li a:hover{
+    color: #1EF6C8;
+    transition: all .3s ease;
+}
 .copyright-link p {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
 }
+
 
 
 

@@ -370,6 +370,27 @@
     .blog-card-date-time ul li:before {
         font-size: 5px;
     }
+
+    .talk-area{
+        width: 450px;
+        padding: 30px;
+    }
+    .common-form-group .form-control {
+        font-size: 16px;
+    }
+    .common-form-group input.form-control {
+        height: 50px;
+    }
+    p.talk_send_us {
+        font-size: 16px;
+    }
+    .talk-form-body button {
+        line-height: 20px;
+        height: 45px;
+    }
+    .common-form-group label {
+        font-size: 16px;
+    }
 }
 @media (min-width: 1600px) and (max-width: 1749.98px) {
     .container-fluid {
@@ -460,6 +481,28 @@
     .section-title {
         font-size: 60px;
     }
+
+    .talk-area{
+        width: 450px;
+        padding: 30px;
+    }
+    .common-form-group .form-control {
+        font-size: 16px;
+    }
+    .common-form-group input.form-control {
+        height: 50px;
+    }
+    p.talk_send_us {
+        font-size: 16px;
+    }
+    .talk-form-body button {
+        line-height: 20px;
+        height: 45px;
+    }
+    .common-form-group label {
+        font-size: 16px;
+    }
+
       
 }
 @media (min-width: 1750px) and (max-width: 3900.98px) {
@@ -549,6 +592,26 @@
     }
     .blog-card-header {
         min-height: 125px;
+    }
+    .talk-area{
+        width: 450px;
+        padding: 30px;
+    }
+    .common-form-group .form-control {
+        font-size: 16px;
+    }
+    .common-form-group input.form-control {
+        height: 50px;
+    }
+    p.talk_send_us {
+        font-size: 16px;
+    }
+    .talk-form-body button {
+        line-height: 20px;
+        height: 45px;
+    }
+    .common-form-group label {
+        font-size: 16px;
     }
 }
 @media (min-width: 1931px){
